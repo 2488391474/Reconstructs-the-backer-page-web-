@@ -14,7 +14,7 @@ veeValidate.configure({
 })
 
 Object.keys(rules).forEach((key) => {
-  veeValidate.defineRule(key, rules[key])
+  // veeValidate.defineRule(key, rules[key])
 })
 
 const useFields = (fields: string[]) => {
